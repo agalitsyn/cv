@@ -6,7 +6,7 @@
     "email": "anton.galitsyn@gmail.com",
     "phone": "+79133867287",
     "website": "https://agalitsyn.github.io",
-    "summary": "A summary of John Doe...",
+    "summary": "I am passionate about creating software products, which can improve every-day life. I always tend to be a diligent person, concentrate upon an objectives and work out it properly. It’s important for me to have self-possession and to be laid-back and modest person for team-members.",
     "location": {
       "city": "Novosibirsk",
       "countryCode": "RU",
@@ -32,31 +32,51 @@
       "company": "i20",
       "position": "Software developer",
       "website": "http://i20.biz",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description...",
+      "startDate": "2011-04-01",
+      "endDate": "2013-04-01",
+      "summary": "Backend development using PHP and Drupal (outsourcing)",
       "highlights": [
-        "php"
+        "Cultural & educational media website",
+        "2 media websites for TV channel",
+        "Several corporate websites",
+        "Guide on restaurants"
       ]
     },
     {
       "company": "Parallels",
       "position": "Software developer",
-      "website": "http://www.parallels.com",
-      "startDate": "2013-01-01",
+      "website": "http://www.odin.com/cz/products/web-presence-builder/",
+      "startDate": "2013-04-01",
       "endDate": "2014-01-01",
-      "summary": "Description...",
+      "summary": "Parallels Presence Builder - interactive web site builder",
       "highlights": [
-        "php",
-        "javascript"
+        "Backend - PHP and Zend Framework",
+        "Frontend - JavaScript and ExtJS framework",
+        "Project was created in 2004, legacy codebase with layered architecture",
+        "Integrated with Plesk panel"
+      ]
+    },
+    {
+      "company": "Parallels",
+      "position": "Software developer",
+      "website": "http://www.odin.com/ru/products/premium/",
+      "startDate": "2014-01-01",
+      "endDate": "2014-10-28",
+      "summary": "Parallels Automation - Shared Hosting Module",
+      "highlights": [
+        "Distributed services",
+        "My component was SHM dispatcher - web application written on PHP (Symfony 2, Doctrine, APS2, Dojo)",
+        "SHM deployment and upgrade procedures",
+        "Multiple integration points: REST, CLI, RPC",
+        "Many tools using Python and Bash"
       ]
     },
     {
       "company": "2GIS",
       "position": "Software developer",
       "website": "https://2gis.ru",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
+      "startDate": "2014-10-28",
+      "endDate": "2016-06-07",
       "summary": "Description...",
       "highlights": [
         "python"
@@ -66,8 +86,8 @@
       "company": "Gravitational",
       "position": "Senior software developer",
       "website": "https://gravitational.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
+      "startDate": "2016-06-07",
+      "endDate": "2017-04-01",
       "summary": "Description...",
       "highlights": [
         "golang"
@@ -77,7 +97,7 @@
       "company": "2GIS",
       "position": "Senior software developer",
       "website": "https://2gis.ru",
-      "startDate": "2013-01-01",
+      "startDate": "2017-04-01",
       "endDate": "2014-01-01",
       "summary": "Description...",
       "highlights": [
@@ -85,78 +105,93 @@
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "website": "http://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description...",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }
-  ],
+  "volunteer": [],
   "education": [
+    {
+      "institution": "Novosibirsk Gymnasium №2",
+      "website": "http://gym2.nsk.ru/",
+      "area": "Math and informatics class",
+      "startDate": "2000-01-01",
+      "endDate": "2006-01-01",
+      "gpa": "",
+      "courses": [
+        "computer graphics",
+        "c++ cource"
+      ]
+    },
     {
       "institution": "Siberian State University of Telecommunications and Information Sciences",
       "website": "https://sibsutis.ru/en",
       "area": "Software Development",
-      "studyType": "Master",
+      "studyType": "Specialist",
       "startDate": "2006-01-01",
       "endDate": "2011-01-01",
       "gpa": "",
-      "courses": []
+      "courses": [
+        "programming",
+        "linux",
+        "networking"
+      ]
     }
   ],
-  "awards": [
-    {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "website": "http://publication.com",
-      "summary": "Description..."
-    }
-  ],
+  "awards": [],
+  "publications": [],
   "skills": [
     {
-      "name": "Web Development",
+      "name": "Collaborative software development",
       "level": "Master",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript"
+        "Development estimation",
+        "Researches and documentation",
+        "Training software engineers",
+        "Small team management, Scrum and Kanban practices",
+        "Tools for project management: Github, Jira, Confluence"
+      ]
+    },
+    {
+      "name": "Backend Web Development",
+      "level": "Master",
+      "keywords": [
+        "Golang: RESTful, RPC services and CLI tools",
+        "Python: Django, Flask, CLI tools",
+        "Distributed services on Kubernetes and Docker",
+        "Backing-services: Nginx, HAproxy, PostgreSQL, RabbitMQ, Redis",
+        "CI/CD pipelines automation: Jenkins, TeamCity, Gitlab CI",
+        "Git workflows"
+      ]
+    },
+    {
+      "name": "Operations",
+      "level": "Master",
+      "keywords": [
+        "Linux system administration",
+        "Cloud providers: DO, AWS, Openstack",
+        "Orchestration tools like Ansible and Terraform",
+        "CoreOS projects: coreos itself, etcd, fleet",
+        "Debugging of distributed services",
+        "Incidents: monitoring, on-call rotation, post mortem, remediation automation",
+        "Bash scripting"
+      ]
+    },
+    {
+      "name": "Frontend Web Development",
+      "level": "intermediate",
+      "keywords": [
+        "HTML, CSS, JavaScript",
+        "Tools: Bootstrap, JQuery, Angular, React"
       ]
     }
   ],
   "languages": [
     {
+      "name": "Russian",
+      "level": "Native"
+    },
+    {
       "name": "English",
-      "level": "Native speaker"
+      "level": "Professional"
     }
   ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Jane Doe",
-      "reference": "Reference..."
-    }
-  ]
+  "interests": [],
+  "references": []
 }
