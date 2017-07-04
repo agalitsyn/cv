@@ -29,14 +29,59 @@
   },
   "work": [
     {
-      "company": "Company",
-      "position": "President",
-      "website": "http://company.com",
+      "company": "i20",
+      "position": "Software developer",
+      "website": "http://i20.biz",
       "startDate": "2013-01-01",
       "endDate": "2014-01-01",
       "summary": "Description...",
       "highlights": [
-        "Started the company"
+        "php"
+      ]
+    },
+    {
+      "company": "Parallels",
+      "position": "Software developer",
+      "website": "http://www.parallels.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description...",
+      "highlights": [
+        "php",
+        "javascript"
+      ]
+    },
+    {
+      "company": "2GIS",
+      "position": "Software developer",
+      "website": "https://2gis.ru",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description...",
+      "highlights": [
+        "python"
+      ]
+    },
+    {
+      "company": "Gravitational",
+      "position": "Senior software developer",
+      "website": "https://gravitational.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description...",
+      "highlights": [
+        "golang"
+      ]
+    },
+    {
+      "company": "2GIS",
+      "position": "Senior software developer",
+      "website": "https://2gis.ru",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Description...",
+      "highlights": [
+        "golang"
       ]
     }
   ],
@@ -55,15 +100,14 @@
   ],
   "education": [
     {
-      "institution": "University",
+      "institution": "Siberian State University of Telecommunications and Information Sciences",
+      "website": "https://sibsutis.ru/en",
       "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
+      "studyType": "Master",
+      "startDate": "2006-01-01",
+      "endDate": "2011-01-01",
+      "gpa": "",
+      "courses": []
     }
   ],
   "awards": [
