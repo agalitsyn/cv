@@ -34,7 +34,7 @@
       "website": "http://i20.biz",
       "startDate": "2011-04-01",
       "endDate": "2013-04-01",
-      "summary": "Backend development using PHP and Drupal (outsourcing)",
+      "summary": "Outsourcing. Backend development using PHP and Drupal.",
       "highlights": [
         "Cultural & educational media website",
         "2 media websites for TV channel",
@@ -48,7 +48,7 @@
       "website": "http://www.odin.com/cz/products/web-presence-builder/",
       "startDate": "2013-04-01",
       "endDate": "2014-01-01",
-      "summary": "Parallels Presence Builder - interactive web site builder",
+      "summary": "Parallels Presence Builder team. interactive web site builder.",
       "highlights": [
         "Backend - PHP and Zend Framework",
         "Frontend - JavaScript and ExtJS framework",
@@ -62,7 +62,7 @@
       "website": "http://www.odin.com/ru/products/premium/",
       "startDate": "2014-01-01",
       "endDate": "2014-10-28",
-      "summary": "Parallels Automation - Shared Hosting Module",
+      "summary": "Parallels Automation team. Shared Hosting Module.",
       "highlights": [
         "Distributed services",
         "My component was SHM dispatcher - web application written on PHP (Symfony 2, Doctrine, APS2, Dojo)",
@@ -77,9 +77,14 @@
       "website": "https://2gis.ru",
       "startDate": "2014-10-28",
       "endDate": "2016-06-07",
-      "summary": "Description...",
+      "summary": "Continuous delivery team. Building private cloud and application delivery platform.",
       "highlights": [
-        "python"
+        "Python development",
+        "Integration of Openstack as private cloud solution",
+        "Openstack custom development, admisitration and support (Icehouse - Kilo)",
+        "Openstack provisioning tools",
+        "Docker, CoreOS, Deis integration",
+        "CI/CD pipelines automation"
       ]
     },
     {
@@ -88,9 +93,12 @@
       "website": "https://gravitational.com",
       "startDate": "2016-06-07",
       "endDate": "2017-04-01",
-      "summary": "Description...",
+      "summary": "Application team. Developing management layer for distributed services on Kubernetes.",
       "highlights": [
-        "golang"
+        "Working remotely for San-Fransico office",
+        "Golang development",
+        "Lots of kubernetes, docker and etcd",
+        "Working on application lifecycles, (create, upgrade, downgrade atomic operations)"
       ]
     },
     {
@@ -98,10 +106,13 @@
       "position": "Senior software developer",
       "website": "https://2gis.ru",
       "startDate": "2017-04-01",
-      "endDate": "2014-01-01",
-      "summary": "Description...",
+      "endDate": "",
+      "summary": "Messenger team. Chat with organizations embeded in 2GIS products.",
       "highlights": [
-        "golang"
+        "Golang development",
+        "Responsible for messenger backends",
+        "Deployed in 2 distributed DCs",
+        "Using kubernetes as an infrastructure platform"
       ]
     }
   ],
