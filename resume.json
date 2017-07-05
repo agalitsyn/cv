@@ -66,7 +66,7 @@
       "highlights": [
         "Distributed services",
         "My component was SHM dispatcher - web application written on PHP (Symfony 2, Doctrine, APS2, Dojo)",
-        "SHM deployment and upgrade procedures",
+        "Deployment and upgrade procedures",
         "Multiple integration points: REST, CLI, RPC",
         "Many tools using Python and Bash"
       ]
@@ -149,14 +149,15 @@
   "publications": [],
   "skills": [
     {
-      "name": "Collaborative software development",
+      "name": "Project management",
       "level": "Master",
       "keywords": [
-        "Development estimation",
-        "Researches and documentation",
+        "Effort estimation",
+        "Milestone planning",
         "Training software engineers",
         "Small team management, Scrum and Kanban practices",
-        "Tools for project management: Github, Jira, Confluence"
+        "Technical documentation skills",
+        "Tools: Github, Jira, Confluence"
       ]
     },
     {
@@ -176,20 +177,25 @@
       "level": "Master",
       "keywords": [
         "Linux system administration",
+        "Bash scripting",
         "Cloud providers: DO, AWS, Openstack",
         "Orchestration tools like Ansible and Terraform",
         "CoreOS projects: coreos itself, etcd, fleet",
-        "Debugging of distributed services",
-        "Incidents: monitoring, on-call rotation, post mortem, remediation automation",
-        "Bash scripting"
+        "Debugging of distributed systems",
+        "Incidents: monitoring, on-call rotation, post-mortems, customer support"
       ]
     },
     {
       "name": "Frontend Web Development",
       "level": "intermediate",
       "keywords": [
-        "HTML, CSS, JavaScript",
-        "Tools: Bootstrap, JQuery, Angular, React"
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "JQuery",
+        "Angular",
+        "React"
       ]
     }
   ],
