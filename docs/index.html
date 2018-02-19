@@ -1,214 +1,538 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
     
     <head>
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet'
+        type='text/css'>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title></title>
-        <link href="//bootswatch.com/lumen/bootstrap.min.css" rel="stylesheet"
-        />
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+        <title>Anton Galitsyn - CV</title>
         <style>
-</style>
+            /*! normalize.css 2012-02-07T12:37 UTC - http://github.com/necolas/normalize.css */article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:hover,a:active{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+            
+            /* General, overall styling */
+            body {
+            	background: #F9F9F9;
+            	font-size: 0.9em;
+            	font-family: 'Lato', sans-serif;
+            	margin-bottom: 100px;
+            }
+            
+            em {
+            	color: #999;
+            }
+            
+            p {
+            	line-height: 1.4;
+            }
+            
+            a {
+            	color: #31A6D6;
+            }
+            
+            a:visited {
+            	color: #3061A5;
+            }
+            
+            a:hover {
+            	color: #3061A5;
+            }
+            
+            ul {
+            	margin-bottom: 0;
+            }
+            section {
+            	margin-bottom: 2em;
+            }
+            
+            blockquote {
+            	margin: 0;
+            	margin-bottom: 1em;
+            }
+            
+            /* End general, overall styling */
+            
+            /* Header name styling */
+            
+            header {
+            	background: #68B6E3;
+            	padding: 50px;
+            	margin-bottom: 50px;
+            }
+            
+            header h1 {
+            	color: #FFFFFF;
+            	max-width: 700px;
+            	margin: 0 auto;
+            }
+            
+            header h2 {
+            	color: #F3F3F3;
+            	font-size: 1em;
+            	max-width: 700px;
+            	margin: 0 auto;
+            }
+            
+            /* End header name styling */
+            
+            /* Set width of main body of CV */
+            .container {
+            	max-width: 700px;
+            	padding: 0 50px;
+            	margin: 0 auto;
+            }
+            
+            /* End */
+            
+            /* Styling Basics (Name, Contact, About, Profiles) */
+            
+            #basics {
+            	margin-bottom: 10px;
+            	border-top: 1px #E2E2E2 solid;
+            	border-bottom: 1px #E2E2E2 solid;
+            }
+            #basics h3 {
+            	margin-top: 1.5em;
+            	margin-bottom: 10px;
+            }
+            #basics .contact strong {
+            	line-height: 1.3;
+            	float: left;
+            	width: 80px;
+            }
+            
+            .contact h3 {
+            	padding-bottom: 10px;
+            }
+            
+            .website,
+            .email,
+            .phone {
+            	margin-bottom: 10px;
+            	float: left;
+            	width: 50%;
+            }
+            
+            .summary {
+            	padding-top: 5px;
+            	clear: both;
+            }
+            
+            #profiles {
+            	overflow: hidden;
+            }
+            
+            #profiles .item {
+            	float: left;
+            	width: 50%;
+            }
+            
+            .username{
+            	margin-top: 10px;
+            }
+            
+            /* End 'Basics' Styling */
+            
+            /* Work and volunteering experience styling */
+            
+            .work_date,
+            .work_position,
+            .work_website,
+            .institution,
+            .study_date,
+            .qualification {
+            	margin-bottom: 10px;
+            	float: left;
+            	width: 30%;
+            }
+            
+            .courses {
+            	clear: both;
+            }
+            
+            .dissertation {
+            	margin-top: 10px;
+            }
+            
+            #work,
+            #volunteer {
+            	padding-bottom: 5px;
+            	border-bottom: 1px #E2E2E2 solid;
+            }
+            
+            #work .item,
+            #volunteer .item {
+            	margin: 25px 0;
+            }
+            
+            /* End work and volunteering */
+            
+            /* Skills, languages, interests and references styling */
+            
+            #skills {
+            	margin-bottom: 10px;
+            	border-bottom: 1px #E2E2E2 solid;
+            	padding-bottom: 5px;
+            }
+            
+            #skills .item,
+            #languages .item {
+            	margin: 0 0 25px 0;
+            }
+            
+            #interests .item {
+            	margin-bottom: 25px;
+            }
+            
+            #skills {
+            	overflow: hidden;
+            }
+            
+            #languages .item,
+            #interests .item,
+            #skills .item {
+            	float: left;
+            	width: 50%;
+            }
+            
+            #references,
+            #interests {
+            	clear: both;
+            }
+            
+            /* End styling */
+        </style>
     </head>
     
     <body>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-12">
-                             <h1>Anton Galitsyn<h1>
+        <header>
+            	<h1>Anton Galitsyn</h1>
 
-        <h2>Novosibirsk</h2>
-        </div>
-        <div class="col-md-6 col-sm-12">
-        <img class="media-object img-circle pull-right" data-src="holder.js/64x64" alt="64x64" src="&#x2F;&#x2F;www.gravatar.com&#x2F;avatar&#x2F;b29a834d0269e82813561e7aefdb2286?s=100&amp;r=pg&amp;d=mm" style="width: 100px; height: 100px; margin-top: 20px;">
+            	<h2>Software developer</h2>
 
-        </div>
-        </div>
-      <hr style="color: #ccc; height: 4px;" />
-      <section class="row">
-        <header class="col-md-3">
-          <h3>About</h3>
         </header>
-        <div class="col-md-9">
-        <p>I am passionate about creating software products, which can improve every-day life. I always tend to be a diligent person, concentrate upon an objectives and work out it properly. It’s important for me to have self-possession and to be laid-back and modest person for team-members.</p>
-        <strong>Phone:</strong> +79133867287 <br />
-        <strong>Email:</strong> anton.galitsyn@gmail.com<br />
-        </div>
-      </section>
-      <section class="row">
-        <header class="col-md-3">
-          <h3>Work Experience</h3>
-        </header>
-        <div class="col-md-9">
-          <div class="skills">
-            <h3>2GIS</h3>
-            <strong>Senior software developer</strong>
-            <p>2017 - Present</p>
-            <p>Messenger team. Chat with organizations embeded in 2GIS products.</p>
-            <ul>
-              <li>Golang development</li>
-              <li>Responsible for messenger backends</li>
-              <li>Deployed in 2 distributed DCs</li>
-              <li>Using kubernetes as an infrastructure platform</li>
-            </ul>
-            <hr />            <h3>Gravitational</h3>
-            <strong>Senior software developer</strong>
-            <p>2016 - 2017</p>
-            <p>Application team. Developing management layer for distributed services on Kubernetes.</p>
-            <ul>
-              <li>Working remotely for San-Fransico office</li>
-              <li>Golang development</li>
-              <li>Lots of kubernetes, docker and etcd</li>
-              <li>Working on application lifecycles, (create, upgrade, downgrade atomic operations)</li>
-            </ul>
-            <hr />            <h3>2GIS</h3>
-            <strong>Software developer</strong>
-            <p>2014 - 2016</p>
-            <p>Continuous delivery team. Building private cloud and application delivery platform.</p>
-            <ul>
-              <li>Python development</li>
-              <li>Integration of Openstack as private cloud solution</li>
-              <li>Openstack custom development, admisitration and support (Icehouse - Kilo)</li>
-              <li>Openstack provisioning tools</li>
-              <li>Docker, CoreOS, Deis integration</li>
-              <li>CI&#x2F;CD pipelines automation</li>
-            </ul>
-            <hr />            <h3>Parallels</h3>
-            <strong>Software developer</strong>
-            <p>2014 - 2014</p>
-            <p>Parallels Automation team. Shared Hosting Module.</p>
-            <ul>
-              <li>Distributed services</li>
-              <li>My component was SHM dispatcher - web application written on PHP (Symfony 2, Doctrine, APS2, Dojo)</li>
-              <li>SHM deployment and upgrade procedures</li>
-              <li>Multiple integration points: REST, CLI, RPC</li>
-              <li>Many tools using Python and Bash</li>
-            </ul>
-            <hr />            <h3>Parallels</h3>
-            <strong>Software developer</strong>
-            <p>2013 - 2014</p>
-            <p>Parallels Presence Builder team. interactive web site builder.</p>
-            <ul>
-              <li>Backend - PHP and Zend Framework</li>
-              <li>Frontend - JavaScript and ExtJS framework</li>
-              <li>Project was created in 2004, legacy codebase with layered architecture</li>
-              <li>Integrated with Plesk panel</li>
-            </ul>
-            <hr />            <h3>i20</h3>
-            <strong>Software developer</strong>
-            <p>2011 - 2013</p>
-            <p>Outsourcing. Backend development using PHP and Drupal.</p>
-            <ul>
-              <li>Cultural &amp; educational media website</li>
-              <li>2 media websites for TV channel</li>
-              <li>Several corporate websites</li>
-              <li>Guide on restaurants</li>
-            </ul>
-            <hr />
-          </div>
-        </div>
-      </section>
+        <div id="content" class="container">
+            <section id="basics">
+                <div class="contact">
+                    	<h3>Contact</h3>
 
-      <section class="row">
-        <header class="col-md-3">
-          <h3>Education</h3>
-        </header>
-        <div class="col-md-9">
-          <div class="skills">
-            <h3>Siberian State University of Telecommunications and Information Sciences</h3>
-            <h4>Software Development, Specialist</h4>
-            <p>2006 - 2011</p>
-            <p></p>
-            <ul>
-            </ul>
-            <hr />
-            <h3>Novosibirsk Gymnasium №2</h3>
-            <h4>Math and informatics class</h4>
-            <p>2000 - 2006</p>
-            <p></p>
-            <ul>
-            </ul>
-            <hr />
-          </div>
-        </div>
-      </section>
-      <section class="row">
-        <header class="col-md-3">
-          <h3>Skills</h3>
-        </header>
-        <div class="col-md-9">
-          <div class="row-fluid skills">
-            <ul class="col-md-6">
+                    <div class="website">	<strong>Website</strong>
+https://agalitsyn.github.io</div>
+                    <div class="email">	<strong>Email</strong>
+anton.galitsyn@gmail.com</div>
+                    <div class="phone">	<strong>Phone</strong>
++79133867287</div>
+                </div>
+                <div class="summary">
+                    	<h3>About</h3>
 
-              <li>
-                <h4>Project management</h4>
-                <ul>
-                  <li>Effort estimation</li>
-                  <li>Milestone planning</li>
-                  <li>Training software engineers</li>
-                  <li>Small team management, Scrum and Kanban practices</li>
-                  <li>Technical documentation skills</li>
-                  <li>Tools: Github, Jira, Confluence</li>
+                    <p>I am passionate about creating software products, which can improve every-day
+                        life. I always tend to be a diligent person, concentrate upon an objectives
+                        and work out it properly. It’s important for me to have self-possession
+                        and to be laid-back and modest person for team-members.</p>
+                </div>
+                <section id="profiles">
+                    <div class="item">	<strong class="network">
+					Twitter
+				</strong>
+
+                        <div class="url">	<a href="https://twitter.com/anton_galitsyn">
+						anton_galitsyn
+					</a>
+
+                        </div>
+                    </div>
+                    <div class="item">	<strong class="network">
+					Github
+				</strong>
+
+                        <div class="url">	<a href="https://github.com/agalitsyn">
+						agalitsyn
+					</a>
+
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <section id="work">
+                	<h2>Work</h2>
+
+                <div class="item">
+                    	<h3 class="work_name">
+				Tinkoff
+			</h3>
+
+                    <div class="work_position">Senior software developer</div>
+                    <div class="work_date">	<span class="startDate">
+					2017-10-07
+				</span>
+	<span class="endDate">
+					- Present
+				</span>
+
+                    </div>
+                    <div class="work_website">	<a href="https://tinkoff.ru">https://tinkoff.ru</a>
+
+                    </div>
+                    <div class="summary">
+                        <p>Go developer</p>
+                    </div>
+                    <ul class="highlights">
+                        <li>Both application and infrastructure development</li>
+                        <li>Participated in market-data app, as developer (go, kafka, postgres) and
+                            devops man (CI/CD, deploy, monitoring, logging)</li>
+                        <li>Participated in integration of company-wide kubernetes cluster as developer
+                            of logging system (go, clickhouse, fluent-bit)</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    	<h3 class="work_name">
+				Gravitational
+			</h3>
+
+                    <div class="work_position">Senior software developer</div>
+                    <div class="work_date">	<span class="startDate">
+					2016-06-07
+				</span>
+	<span class="endDate">
+					- 2017-04-01
+				</span>
+
+                    </div>
+                    <div class="work_website">	<a href="https://gravitational.com">https://gravitational.com</a>
+
+                    </div>
+                    <div class="summary">
+                        <p>Application team. Developing management layer for distributed services
+                            on Kubernetes.</p>
+                    </div>
+                    <ul class="highlights">
+                        <li>Working remotely for San-Fransico office</li>
+                        <li>Go programming</li>
+                        <li>Lots of kubernetes, docker and etcd</li>
+                        <li>Working on application lifecycles, (create, upgrade, downgrade atomic
+                            operations)</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    	<h3 class="work_name">
+				2GIS
+			</h3>
+
+                    <div class="work_position">Software developer</div>
+                    <div class="work_date">	<span class="startDate">
+					2014-10-28
+				</span>
+	<span class="endDate">
+					- 2016-06-07
+				</span>
+
+                    </div>
+                    <div class="work_website">	<a href="https://2gis.ru">https://2gis.ru</a>
+
+                    </div>
+                    <div class="summary">
+                        <p>Continuous delivery team. Building private cloud and application delivery
+                            platform.</p>
+                    </div>
+                    <ul class="highlights">
+                        <li>Python and Go programming</li>
+                        <li>Integration of Openstack as private cloud solution</li>
+                        <li>Openstack custom development, admisitration and support (Icehouse - Kilo)</li>
+                        <li>Openstack provisioning tools</li>
+                        <li>Docker, CoreOS, Deis integration</li>
+                        <li>CI/CD pipelines automation</li>
+                        <li>Also participated in messenger team as backend developer</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    	<h3 class="work_name">
+				Parallels
+			</h3>
+
+                    <div class="work_position">Software developer</div>
+                    <div class="work_date">	<span class="startDate">
+					2014-01-01
+				</span>
+	<span class="endDate">
+					- 2014-10-28
+				</span>
+
+                    </div>
+                    <div class="work_website">	<a href="http://www.odin.com/ru/products/premium/">http://www.odin.com/ru/products/premium/</a>
+
+                    </div>
+                    <div class="summary">
+                        <p>Parallels Automation team. Shared Hosting Module.</p>
+                    </div>
+                    <ul class="highlights">
+                        <li>Python and Bash programming</li>
+                        <li>Also development of dispatcher component - web app written in PHP (Symfony
+                            2, Doctrine, APS2, Dojo)</li>
+                        <li>SOA architecture</li>
+                        <li>Deployment and upgrade scripts</li>
+                        <li>Multiple integration points: REST, CLI, RPC</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    	<h3 class="work_name">
+				Parallels
+			</h3>
+
+                    <div class="work_position">Software developer</div>
+                    <div class="work_date">	<span class="startDate">
+					2013-04-01
+				</span>
+	<span class="endDate">
+					- 2014-01-01
+				</span>
+
+                    </div>
+                    <div class="work_website">	<a href="http://www.odin.com/cz/products/web-presence-builder/">http://www.odin.com/cz/products/web-presence-builder/</a>
+
+                    </div>
+                    <div class="summary">
+                        <p>Parallels Presence Builder team. Interactive web site builder.</p>
+                    </div>
+                    <ul class="highlights">
+                        <li>PHP and JavaScript programming</li>
+                        <li>Project was created in 2004, legacy codebase with layered architecture</li>
+                        <li>Integrated with Plesk panel and Cpanel</li>
+                    </ul>
+                </div>
+                <div class="item">
+                    	<h3 class="work_name">
+				i20
+			</h3>
+
+                    <div class="work_position">Software developer</div>
+                    <div class="work_date">	<span class="startDate">
+					2011-04-01
+				</span>
+	<span class="endDate">
+					- 2013-04-01
+				</span>
+
+                    </div>
+                    <div class="work_website">	<a href="http://i20.biz">http://i20.biz</a>
+
+                    </div>
+                    <div class="summary">
+                        <p>Small outsourcing company</p>
+                    </div>
+                    <ul class="highlights">
+                        <li>PHP and JavaScript programming</li>
+                        <li>Cultural &amp; educational media website</li>
+                        <li>2 media websites for TV channel</li>
+                        <li>Several corporate websites</li>
+                        <li>Guide on restaurants website</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="education">
+                	<h2>Education</h2>
+
+                <div class="item">
+                    <div class="institution">Siberian State University of Telecommunications and Information Sciences</div>
+                    <div
+                    class="study_date">	<span class="startDate">
+					2006-01-01
+				</span>
+	<span class="endDate">
+					- 2011-01-01
+				</span>
+
+                </div>
+                <ul class="courses">
+                    <li>programming</li>
+                    <li>linux</li>
+                    <li>networking</li>
                 </ul>
-              </li>
-            </ul>
-            <ul class="col-md-6">
-
-              <li>
-                <h4>Backend Web Development</h4>
-                <ul>
-                  <li>Golang: RESTful, RPC services and CLI tools</li>
-                  <li>Python: Django, Flask, CLI tools</li>
-                  <li>Distributed services on Kubernetes and Docker</li>
-                  <li>Backing-services: Nginx, HAproxy, PostgreSQL, RabbitMQ, Redis</li>
-                  <li>CI&#x2F;CD pipelines automation: Jenkins, TeamCity, Gitlab CI</li>
-                  <li>Git workflows</li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="col-md-6">
-
-              <li>
-                <h4>Operations</h4>
-                <ul>
-                  <li>Linux system administration</li>
-                  <li>Bash scripting</li>
-                  <li>Cloud providers: DO, AWS, Openstack</li>
-                  <li>Orchestration tools like Ansible and Terraform</li>
-                  <li>CoreOS projects: coreos itself, etcd, fleet</li>
-                  <li>Debugging of distributed systems</li>
-                  <li>Incidents: monitoring, on-call rotation, post-mortems, customer support</li>
-                </ul>
-              </li>
-            </ul>
-            <ul class="col-md-6">
-
-              <li>
-                <h4>Frontend Web Development</h4>
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>JavaScript</li>
-                  <li>Bootstrap</li>
-                  <li>JQuery</li>
-                  <li>Angular</li>
-                  <li>React</li>
-                </ul>
-              </li>
-            </ul>
-          </div>
         </div>
-      </section>
+        <div class="item">
+            <div class="institution">Novosibirsk Gymnasium №2</div>
+            <div class="study_date">	<span class="startDate">
+					2000-01-01
+				</span>
+	<span class="endDate">
+					- 2006-01-01
+				</span>
 
-    </div>
-  </div>
-</div>
+            </div>
+            <ul class="courses">
+                <li>computer graphics</li>
+                <li>c++ cource</li>
+            </ul>
+        </div>
+        </section>
+        <section id="skills">
+            	<h2>Skills</h2>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-  </body>
+            <div class="item">
+                <div class="name">Project management</div>
+                <div class="level">	<em>Master</em>
+
+                </div>
+                <ul class="keywords">
+                    <li>Effort estimation</li>
+                    <li>Milestone planning</li>
+                    <li>Training software engineers</li>
+                    <li>Small team management, Scrum and Kanban practices</li>
+                    <li>Technical documentation skills</li>
+                    <li>Tools: Github, Jira, Confluence</li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="name">Backend Web Development</div>
+                <div class="level">	<em>Master</em>
+
+                </div>
+                <ul class="keywords">
+                    <li>Golang: RESTful, RPC services and CLI tools</li>
+                    <li>Python: Django, Flask, CLI tools</li>
+                    <li>Distributed services on Kubernetes and Docker</li>
+                    <li>Backing-services: Nginx, HAproxy, PostgreSQL, RabbitMQ, Redis</li>
+                    <li>CI/CD pipelines automation: Jenkins, TeamCity, Gitlab CI</li>
+                    <li>Git workflows</li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="name">Operations</div>
+                <div class="level">	<em>Master</em>
+
+                </div>
+                <ul class="keywords">
+                    <li>Linux system administration</li>
+                    <li>Bash scripting</li>
+                    <li>Cloud providers: DO, AWS, Openstack</li>
+                    <li>Orchestration tools like Ansible and Terraform</li>
+                    <li>CoreOS projects: coreos itself, etcd, fleet</li>
+                    <li>Debugging of distributed systems</li>
+                    <li>Incidents: monitoring, on-call rotation, post-mortems, customer support</li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="name">Frontend Web Development</div>
+                <div class="level">	<em>Beginner</em>
+
+                </div>
+                <ul class="keywords">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap</li>
+                    <li>JQuery</li>
+                    <li>React</li>
+                </ul>
+            </div>
+        </section>
+        <section id="languages">
+            	<h2>Languages</h2>
+
+            <div class="item"></div>
+            <div class="item"></div>
+        </section>
+        </div>
+    </body>
+
 </html>

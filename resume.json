@@ -34,12 +34,13 @@
       "website": "http://i20.biz",
       "startDate": "2011-04-01",
       "endDate": "2013-04-01",
-      "summary": "Outsourcing. Backend development using PHP and Drupal.",
+      "summary": "Small outsourcing company",
       "highlights": [
+        "PHP and JavaScript programming",
         "Cultural & educational media website",
         "2 media websites for TV channel",
         "Several corporate websites",
-        "Guide on restaurants"
+        "Guide on restaurants website"
       ]
     },
     {
@@ -48,12 +49,11 @@
       "website": "http://www.odin.com/cz/products/web-presence-builder/",
       "startDate": "2013-04-01",
       "endDate": "2014-01-01",
-      "summary": "Parallels Presence Builder team. interactive web site builder.",
+      "summary": "Parallels Presence Builder team. Interactive web site builder.",
       "highlights": [
-        "Backend - PHP and Zend Framework",
-        "Frontend - JavaScript and ExtJS framework",
+        "PHP and JavaScript programming",
         "Project was created in 2004, legacy codebase with layered architecture",
-        "Integrated with Plesk panel"
+        "Integrated with Plesk panel and Cpanel"
       ]
     },
     {
@@ -64,11 +64,11 @@
       "endDate": "2014-10-28",
       "summary": "Parallels Automation team. Shared Hosting Module.",
       "highlights": [
-        "Distributed services",
-        "My component was SHM dispatcher - web application written on PHP (Symfony 2, Doctrine, APS2, Dojo)",
-        "Deployment and upgrade procedures",
-        "Multiple integration points: REST, CLI, RPC",
-        "Many tools using Python and Bash"
+        "Python and Bash programming",
+        "Also development of dispatcher component - web app written in PHP (Symfony 2, Doctrine, APS2, Dojo)",
+        "SOA architecture",
+        "Deployment and upgrade scripts",
+        "Multiple integration points: REST, CLI, RPC"
       ]
     },
     {
@@ -79,12 +79,13 @@
       "endDate": "2016-06-07",
       "summary": "Continuous delivery team. Building private cloud and application delivery platform.",
       "highlights": [
-        "Python development",
+        "Python and Go programming",
         "Integration of Openstack as private cloud solution",
         "Openstack custom development, admisitration and support (Icehouse - Kilo)",
         "Openstack provisioning tools",
         "Docker, CoreOS, Deis integration",
-        "CI/CD pipelines automation"
+        "CI/CD pipelines automation",
+        "Also participated in messenger team as backend developer"
       ]
     },
     {
@@ -96,23 +97,22 @@
       "summary": "Application team. Developing management layer for distributed services on Kubernetes.",
       "highlights": [
         "Working remotely for San-Fransico office",
-        "Golang development",
+        "Go programming",
         "Lots of kubernetes, docker and etcd",
         "Working on application lifecycles, (create, upgrade, downgrade atomic operations)"
       ]
     },
     {
-      "company": "2GIS",
+      "company": "Tinkoff",
       "position": "Senior software developer",
-      "website": "https://2gis.ru",
-      "startDate": "2017-04-01",
+      "website": "https://tinkoff.ru",
+      "startDate": "2017-10-07",
       "endDate": "",
-      "summary": "Messenger team. Chat with organizations embeded in 2GIS products.",
+      "summary": "Go developer",
       "highlights": [
-        "Golang development",
-        "Responsible for messenger backends",
-        "Deployed in 2 distributed DCs",
-        "Using kubernetes as an infrastructure platform"
+        "Both application and infrastructure development",
+        "Participated in market-data app, as developer (go, kafka, postgres) and devops man (CI/CD, deploy, monitoring, logging)",
+        "Participated in integration of company-wide kubernetes cluster as developer of logging system (go, clickhouse, fluent-bit)"
       ]
     }
   ],
@@ -187,14 +187,13 @@
     },
     {
       "name": "Frontend Web Development",
-      "level": "intermediate",
+      "level": "Beginner",
       "keywords": [
         "HTML",
         "CSS",
         "JavaScript",
         "Bootstrap",
         "JQuery",
-        "Angular",
         "React"
       ]
     }

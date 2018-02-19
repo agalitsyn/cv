@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "description": "",
   "scripts": {
-    "build": "node_modules/.bin/hackmyresume BUILD resume.json TO docs/index.html -t node_modules/jsonresume-theme-modern"
+    "build": "node_modules/.bin/hackmyresume BUILD resume.json TO docs/index.html -t node_modules/jsonresume-theme-class"
   },
   "devDependencies": {
     "hackmyresume": "1.8.0",
-    "jsonresume-theme-modern": "0.0.18"
+    "jsonresume-theme-class": "^0.1.2"
   }
 }
