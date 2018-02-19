@@ -111,7 +111,7 @@
       "summary": "Go developer",
       "highlights": [
         "Both application and infrastructure development",
-        "Participated in market-data app, as developer (go, kafka, postgres) and devops man (CI/CD, deploy, monitoring, logging)",
+        "Participated in market-data app, as developer (go, kafka, postgres) and devops (CI/CD, deploy, monitoring, logging)",
         "Participated in integration of company-wide kubernetes cluster as developer of logging system (go, clickhouse, fluent-bit)"
       ]
     }
