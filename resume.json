@@ -127,7 +127,7 @@
       "gpa": "",
       "courses": [
         "computer graphics",
-        "c++ cource"
+        "programming in delphi and c++"
       ]
     },
     {
@@ -139,9 +139,8 @@
       "endDate": "2011-01-01",
       "gpa": "",
       "courses": [
-        "programming",
-        "linux",
-        "networking"
+        "programming in delphi and c++",
+        "linux"
       ]
     }
   ],
@@ -200,12 +199,12 @@
   ],
   "languages": [
     {
-      "name": "Russian",
-      "level": "Native"
+      "language": "Russian",
+      "fluency": "Native"
     },
     {
-      "name": "English",
-      "level": "Professional"
+      "language": "English",
+      "fluency": "Professional"
     }
   ],
   "interests": [],
