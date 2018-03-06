@@ -139,8 +139,8 @@
       "endDate": "2011-01-01",
       "gpa": "",
       "courses": [
-        "programming in delphi and c++",
-        "linux"
+        "programming in delphi",
+        "basic linux and shell scripting"
       ]
     }
   ],
@@ -163,12 +163,11 @@
       "name": "Backend Web Development",
       "level": "Master",
       "keywords": [
-        "Golang: RESTful, RPC services and CLI tools",
-        "Python: Django, Flask, CLI tools",
-        "Distributed services on Kubernetes and Docker",
-        "Backing-services: Nginx, HAproxy, PostgreSQL, RabbitMQ, Redis",
-        "CI/CD pipelines automation: Jenkins, TeamCity, Gitlab CI",
-        "Git workflows"
+        "Go: RESTful web services, cli tools",
+        "Python: Django web apps, cli tools",
+        "Building apps for Kubernetes using Helm",
+        "Primarily in use: Nginx, PostgreSQL",
+        "CI/CD pipelines automation: Jenkins, TeamCity, Gitlab CI"
       ]
     },
     {
@@ -178,7 +177,7 @@
         "Linux system administration",
         "Bash scripting",
         "Cloud providers: DO, AWS, Openstack",
-        "Orchestration tools like Ansible and Terraform",
+        "Orchestration tools: Ansible",
         "CoreOS projects: coreos itself, etcd, fleet",
         "Debugging of distributed systems",
         "Incidents: monitoring, on-call rotation, post-mortems, customer support"
