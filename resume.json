@@ -96,8 +96,8 @@
       "endDate": "2017-04-01",
       "summary": "Application team. Developing management layer for distributed services on Kubernetes.",
       "highlights": [
-        "Working remotely for San-Fransico office",
-        "Go programming",
+        "Remote work",
+        "Go programming, bash",
         "Lots of kubernetes, docker and etcd",
         "Working on application lifecycles, (create, upgrade, downgrade atomic operations)"
       ]
@@ -105,14 +105,26 @@
     {
       "company": "Tinkoff",
       "position": "Senior software developer",
-      "website": "https://tinkoff.ru",
+      "website": "https://tinkoff.ru/invest",
       "startDate": "2017-10-07",
-      "endDate": "",
-      "summary": "Go developer",
+      "endDate": "2018-04-01",
+      "summary": "Go development",
       "highlights": [
         "Both application and infrastructure development",
         "Participated in market-data app, as developer (go, kafka, postgres) and devops (CI/CD, deploy, monitoring, logging)",
         "Participated in integration of company-wide kubernetes cluster as developer of logging system (go, clickhouse, fluent-bit)"
+      ]
+    },
+    {
+      "company": "Positive technologies",
+      "position": "Senior software developer",
+      "website": "https://www.ptsecurity.com",
+      "startDate": "2018-04-01",
+      "endDate": "",
+      "summary": "Go development",
+      "highlights": [
+        "Both application and infrastructure development",
+        "Participated as developer (go, postgres) and devops (CI/CD, deploy, monitoring, logging)"
       ]
     }
   ],
@@ -125,10 +137,7 @@
       "startDate": "2000-01-01",
       "endDate": "2006-01-01",
       "gpa": "",
-      "courses": [
-        "computer graphics",
-        "programming in delphi and c++"
-      ]
+      "courses": []
     },
     {
       "institution": "Siberian State University of Telecommunications and Information Sciences",
@@ -138,10 +147,7 @@
       "startDate": "2006-01-01",
       "endDate": "2011-01-01",
       "gpa": "",
-      "courses": [
-        "programming in delphi",
-        "basic linux and shell scripting"
-      ]
+      "courses": []
     }
   ],
   "awards": [],
@@ -149,7 +155,6 @@
   "skills": [
     {
       "name": "Project management",
-      "level": "Master",
       "keywords": [
         "Effort estimation",
         "Milestone planning",
@@ -161,38 +166,30 @@
     },
     {
       "name": "Backend Web Development",
-      "level": "Master",
       "keywords": [
-        "Go: RESTful web services, cli tools",
-        "Python: Django web apps, cli tools",
+        "Go: RESTful web services, CLI tools",
+        "Python: Django web apps, CLI tools",
         "Building apps for Kubernetes using Helm",
-        "Primarily in use: Nginx, PostgreSQL",
         "CI/CD pipelines automation: Jenkins, TeamCity, Gitlab CI"
       ]
     },
     {
       "name": "Operations",
-      "level": "Master",
       "keywords": [
         "Linux system administration",
         "Bash scripting",
         "Cloud providers: DO, AWS, Openstack",
         "Orchestration tools: Ansible",
-        "CoreOS projects: coreos itself, etcd, fleet",
         "Debugging of distributed systems",
-        "Incidents: monitoring, on-call rotation, post-mortems, customer support"
+        "Familiar with incident management: on-call rotation, post-mortems, customer support"
       ]
     },
     {
       "name": "Frontend Web Development",
-      "level": "Beginner",
       "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Bootstrap",
-        "JQuery",
-        "React"
+        "HTML, CSS, JavaScript",
+        "Familiar with Bootstrap, JQuery",
+        "Familiar with React, Angular"
       ]
     }
   ],
