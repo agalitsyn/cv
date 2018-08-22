@@ -155,6 +155,7 @@
   "skills": [
     {
       "name": "Project management",
+      "level": "",
       "keywords": [
         "Effort estimation",
         "Milestone planning",
@@ -166,6 +167,7 @@
     },
     {
       "name": "Backend Web Development",
+      "level": "",
       "keywords": [
         "Go: RESTful web services, CLI tools",
         "Python: Django web apps, CLI tools",
@@ -175,6 +177,7 @@
     },
     {
       "name": "Operations",
+      "level": "",
       "keywords": [
         "Linux system administration",
         "Bash scripting",
@@ -186,6 +189,7 @@
     },
     {
       "name": "Frontend Web Development",
+      "level": "",
       "keywords": [
         "HTML, CSS, JavaScript",
         "Familiar with Bootstrap, JQuery",
