@@ -137,7 +137,7 @@
       "startDate": "2000-01-01",
       "endDate": "2006-01-01",
       "gpa": "",
-      "courses": []
+      "courses": [""]
     },
     {
       "institution": "Siberian State University of Telecommunications and Information Sciences",
@@ -147,7 +147,7 @@
       "startDate": "2006-01-01",
       "endDate": "2011-01-01",
       "gpa": "",
-      "courses": []
+      "courses": [""]
     }
   ],
   "awards": [],

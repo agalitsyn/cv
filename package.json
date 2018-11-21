@@ -6,7 +6,7 @@
     "build": "node_modules/.bin/hackmyresume BUILD resume.json TO docs/index.html -t node_modules/jsonresume-theme-class"
   },
   "dependencies": {
-    "hackmyresume": "^1.8.0",
+    "hackmyresume": "^1.9.0-beta",
     "jsonresume-theme-class": "^0.1.2"
   }
 }
