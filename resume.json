@@ -64,7 +64,7 @@
       "highlights": [
         "This was a big project with SOA architecture. Old core in C++, new in Java. All of that was using CORBA for communication",
         "I worked on dispatcher component - web app written in PHP (Symfony 2 and Doctrine) with multiple integration points: REST, CLI, RPC",
-        "Deployment and upgrade scripts for out component",
+        "Main goal was infrastructure management, upgrade and health monitoring. Also apps provisioning and load balancing.",
         "Python and Bash programming for tools on Linux"
       ]
     },
@@ -178,7 +178,7 @@
       "keywords": [
         "Linux system administration",
         "Bash scripting",
-        "Cloud providers: DO, AWS, Openstack",
+        "Public clouds (like DO, AWS) or private (OpenStack, VSphere)",
         "Orchestration tools: Ansible",
         "Debugging of distributed systems",
         "Familiar with incident management: on-call rotation, post-mortems, customer support"
